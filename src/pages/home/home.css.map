@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,IAAI;EACF,MAAM,EAAE,CAAC;EACT,gBAAgB,ECCE,OAAO;;ADA3B,gBAAgB;EACd,YAAY,EAAE,YAAY",
+"sources": ["home.sass","../../styles/variables.sass"],
+"names": [],
+"file": "home.css"
+}

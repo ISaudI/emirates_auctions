@@ -1,0 +1,32 @@
+@import '../../styles/breakpoint'
+@import '../../styles/variables'
+
+.navbar
+  border-radius: 0
+  border: 0
+  background-color: $color--white
+  .container
+    width: auto
+  .navbar-brand
+    padding: 0
+    img
+      width: 200px
+  &-nav
+    li a
+      color: $color--black !important
+      font-weight: 600
+      transition: 0.5s ease-in-out
+      &:hover
+        color: $color--red !important
+    &__icon
+      border-left: 1px solid $color--light-gray
+    &__account
+      a
+        display: flex !important
+        align-items: center
+        img
+          width: 20px
+          height: 20px
+        p
+          margin-bottom: 0
+          margin-right: 20px
