@@ -18,6 +18,18 @@ i used:
 - eslint
 - prettier
 
+******************************************************************************************************
+
+Project Structure
+
+- config - Includes the webpack
+- node_modules - includes all dependencies
+- public and scripts
+- src - includes all components, views and styles
+
+there is a parent view and import all components inside it and it includes also the request to get data
+
+
 Note:
 ******************************************************************************************************
 Refresh the page when change the view port
