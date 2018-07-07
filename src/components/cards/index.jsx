@@ -77,34 +77,34 @@ class Cards extends React.Component {
       <div className="col-xs-12 col-sm-12 col-md-9 content-section">
         {this.state.cars && (
           <div className="row">
-            <div className="col-xs-12 filters-btn-section">
+            <div className="filters-btn-section col-xs-12 col-md-8 col-md-offset-4">
               <button
-                className="btn btn-success refresh-btn pull-right"
+                className="btn btn-success refresh-btn col-xs-6 col-md-2  pull-right"
                 onClick={this.props.getAllData}
               >
                 <FormattedMessage id="refresh" defaultMessage="Refresh" />{" "}
                 <i className="fa fa-refresh" />
               </button>
               <button
-                className="btn pull-right filters-btn"
+                className="btn col-xs-6 col-md-2 filters-btn pull-right"
                 onClick={() => this.filterBy("price")}
               >
                 <FormattedMessage id="byPrice" defaultMessage="By Price" />
               </button>
               <button
-                className="btn pull-right filters-btn"
+                className="btn col-xs-6 col-md-2 filters-btn  pull-right"
                 onClick={() => this.filterBy("year")}
               >
                 <FormattedMessage id="byYear" defaultMessage="By Year" />
               </button>
               <button
-                className="btn pull-right filters-btn"
+                className="btn col-xs-6 col-md-2 filters-btn  pull-right"
                 onClick={() => this.filterBy("bids")}
               >
                 <FormattedMessage id="byBids" defaultMessage="By Bids" />
               </button>
               <button
-                className="btn pull-right filters-btn"
+                className="btn col-xs-6 col-md-2 filters-btn  pull-right"
                 onClick={() => this.filterBy("endDate")}
               >
                 <FormattedMessage id="byEndTime" defaultMessage="By End Time" />

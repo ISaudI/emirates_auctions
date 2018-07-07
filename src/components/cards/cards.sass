@@ -5,9 +5,13 @@
   padding-top: 100px
   .refresh-btn
     margin-left: 20px
+    @include breakpoint(xsmax)
+      margin-left: 0
+      margin-bottom: 15px
   .filters-btn-section
     margin-bottom: 50px
   .filters-btn
+    height: 34px
     margin-left: 20px
     background-color: transparent
     border: 0
@@ -16,6 +20,7 @@
     transition: 0.5s ease-in-out
     @include breakpoint(xsmax)
       margin-left: 0
+      margin-bottom: 15px
 
     &:hover, &:focus
       color: $color--black

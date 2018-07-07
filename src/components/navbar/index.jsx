@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FormattedMessage } from "react-intl";
 import { Navbar, NavItem, Nav } from "react-bootstrap";
+import constants from "../../constants";
 import "./navbar.sass";
 
 class NavBar extends React.Component {
@@ -66,10 +67,10 @@ class NavBar extends React.Component {
               href="#"
               className="navbar-nav__icon navbar-nav__account"
             >
-              <p>Abdelfattah</p>
+              <p>{constants.USER_NAME}</p>
               <img
-                src="https://cdn.emiratesauction.com/media/9jeqvldvobggms4ko3qmdfpdqq0s12o81i3wid3o67xji1to3/t_,w_0,h_0/images.jpg"
-                alt=""
+                src={constants.ACCOUNT_IMAGE}
+                alt="Account Image"
                 className="img-circle"
               />
             </NavItem>

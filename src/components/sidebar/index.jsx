@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import List from "./list";
 import Filter from "./filter";
+import constants from "../../constants";
 import "./sidebar.sass";
 
 function SideBar({ openSideBar }) {
-  const isMobile = window.innerWidth < 1024;
+  const isMobile = window.innerWidth < constants.MOBILE_BREAKPOINT;
   const sideBarMobile = isMobile ? "sidebar--mobile" : "";
 
   return (
@@ -15,7 +16,7 @@ function SideBar({ openSideBar }) {
         } ${sideBarMobile}`}
       >
         <img
-          src="http://via.placeholder.com/300x50"
+          src={constants.LOGO_IMAGE}
           alt="logo"
           className="sidebar__logo hidden-xs hidden-sm"
         />
