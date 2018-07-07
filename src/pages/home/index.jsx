@@ -61,9 +61,10 @@ class Home extends React.Component {
       <IntlProvider locale="ar" messages={translation[lang]}>
         <div>
           <NavBar
-              getAllData={this.getAllData}
-              openSideBar={this.openSideBar}
-              sideBarOpened={this.state.openSideBar} />
+            getAllData={this.getAllData}
+            openSideBar={this.openSideBar}
+            sideBarOpened={this.state.openSideBar}
+          />
 
           <SideBar openSideBar={this.state.openSideBar} />
 

@@ -1,12 +1,12 @@
 import React from "react";
-import FilterHeader from './filter-header';
-import FilterContent from './filter-content';
+import FilterHeader from "./filter-header";
+import FilterContent from "./filter-content";
 
 function Filter() {
   return (
     <form className="sidebar__filters">
       <FilterHeader />
-      <FilterContent/>
+      <FilterContent />
     </form>
   );
 }

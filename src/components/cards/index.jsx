@@ -49,7 +49,7 @@ class Cards extends React.Component {
         this.setState({ cars: _.sortBy(this.state.cars, "year") });
         break;
       case "endDate":
-        debugger
+        debugger;
         this.setState({
           cars: _.sortBy(this.state.cars, "AuctionInfo.endDate")
         });
