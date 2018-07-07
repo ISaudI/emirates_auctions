@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import { FormattedMessage } from "react-intl";
 import { Navbar, NavItem, Nav } from "react-bootstrap";
 import "./navbar.sass";
-import { FormattedMessage } from "react-intl";
 
 class NavBar extends React.Component {
   constructor(props) {

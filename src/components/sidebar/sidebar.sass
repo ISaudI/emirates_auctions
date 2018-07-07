@@ -8,6 +8,10 @@
   top: 0
   z-index: 9999
   transition: 0.5s ease-in-out
+  @include breakpoint(xsmax)
+    top: 50px
+    z-index: 999
+    left: -100%
   &--mobile
     left: -100%
     top: 50px

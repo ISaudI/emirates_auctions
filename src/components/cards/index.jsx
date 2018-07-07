@@ -49,6 +49,7 @@ class Cards extends React.Component {
         this.setState({ cars: _.sortBy(this.state.cars, "year") });
         break;
       case "endDate":
+        debugger
         this.setState({
           cars: _.sortBy(this.state.cars, "AuctionInfo.endDate")
         });
@@ -104,7 +105,7 @@ class Cards extends React.Component {
               </button>
               <button
                 className="btn pull-right filters-btn"
-                onClick={() => this.filterBy("date")}
+                onClick={() => this.filterBy("endDate")}
               >
                 <FormattedMessage id="byEndTime" defaultMessage="By End Time" />
               </button>

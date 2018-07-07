@@ -1,5 +1,4 @@
 import React from "react";
-import "./sidebar.sass";
 
 function List() {
   return (
@@ -47,4 +46,5 @@ function List() {
     </ul>
   );
 }
+
 export default List;

@@ -1,4 +1,3 @@
-/* eslint-disable react */
 import React, { Component } from "react";
 import { IntlProvider } from "react-intl";
 import axios from "axios";
@@ -48,15 +47,16 @@ class Home extends React.Component {
       });
   };
 
-    /**
-     * Open Side bar
-     */
+  /**
+   * Open Side bar
+   */
   openSideBar = () => {
     this.setState(prevState => ({ openSideBar: !prevState.openSideBar }));
   };
 
   render() {
     const lang = window.language === "en" ? "en" : "ar";
+
     return (
       <IntlProvider locale="ar" messages={translation[lang]}>
         <div>
@@ -74,4 +74,5 @@ class Home extends React.Component {
     );
   }
 }
+
 export default Home;
