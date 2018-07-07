@@ -150,19 +150,17 @@ class Cards extends React.Component {
                   </div>
                   <div className="card__footer">
                     <div className="card__item">
-                      <i className="fa fa-camera" />
+                      <i className="fa fa-suitcase" />
                       <p>{this.state.cars[carIndex].AuctionInfo.lot}</p>
                     </div>
                     <div className="card__item">
-                      <i className="fa fa-camera" />
+                      <i className="fa fa-heart-o" />
                       <p>{this.state.cars[carIndex].AuctionInfo.bids}</p>
                     </div>
                     <div className="card__item">
                       <i className="fa fa-camera" />
                       <p>
-                        {moment(this.state.cars[carIndex].AuctionInfo.endDate)
-                          .startOf("day")
-                          .format("H:mm:ss")}
+                        {/*{moment(this.state.cars[carIndex].AuctionInfo.endDate)}*/}
                       </p>
                     </div>
                   </div>
