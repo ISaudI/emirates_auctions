@@ -7,7 +7,7 @@ Below you will find some information on how to perform common tasks.
 
 ******************************************************************************************************
 
-i used:
+Project Dependencies:
 
 - create-react-app to start a very simple application
 - react-intl for translation
@@ -20,7 +20,7 @@ i used:
 
 ******************************************************************************************************
 
-Project Structure
+Project Structure:
 
 - config - Includes the webpack
 - node_modules - includes all dependencies
