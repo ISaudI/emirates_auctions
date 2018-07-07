@@ -23,6 +23,7 @@ export default {
         'byYear': 'By Year',
         'byPrice': 'By Price',
         'byBids': 'By Bids',
+        'loading': 'Loading...',
     },
     ar: {
         'home': 'الرئيسية',
@@ -48,5 +49,6 @@ export default {
         'byYear': 'ترتيب بالسنة',
         'byPrice': 'ترتيب بالسعر',
         'byBids': 'ترتيب بالعروض',
+        'loading': 'جاري تحميل البيانات',
     }
 }
