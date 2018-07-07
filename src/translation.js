@@ -27,7 +27,7 @@ export default {
     ar: {
         'home': 'الرئيسية',
         'about': 'من نحن',
-        'faq': 'من نحن',
+        'faq': 'التعليمات',
         'contactus': 'تواصل معنا',
         'open': 'فتح',
         'close': 'غلق',
