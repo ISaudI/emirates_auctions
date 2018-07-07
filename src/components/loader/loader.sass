@@ -12,14 +12,20 @@
   display: flex
   justify-content: center
   align-items: center
-.spinner
-  -webkit-animation: spin 1s linear infinite
-    animation: spin 1s linear infinite
-  border: 3px solid $color--dark-gray
-  border-top: 3px solid $color--red
-  border-radius: 50%
-  height: 75px
-  width: 75px
+  flex-direction: column
+  .spinner
+    -webkit-animation: spin 1s linear infinite
+      animation: spin 1s linear infinite
+    border: 3px solid $color--dark-gray
+    border-top: 3px solid $color--red
+    border-radius: 50%
+    height: 75px
+    width: 75px
+
+  span
+    font-size: 25px
+    display: block
+    margin-top: 20px
 
 
 @-webkit-keyframes spin
